@@ -22,8 +22,7 @@ The functions do not return a value, instead they modify the image itself.
 import abc
 import collections
 # Set headless-friendly backend.
-import matplotlib; matplotlib.use('Agg')  # pylint: disable=multiple-statements
-import matplotlib.pyplot as plt  # pylint: disable=g-import-not-at-top
+import matplotlib.pyplot as plt
 import numpy as np
 import PIL.Image as Image
 import PIL.ImageColor as ImageColor
